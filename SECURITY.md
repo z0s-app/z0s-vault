@@ -5,7 +5,7 @@ This program is experimental and has not been audited.
 ## Reporting a problem
 
 Please report vulnerabilities privately through the bug report form at
-[z0s.vercel.app/fund](https://z0s.vercel.app/fund). Sign in with the wallet a
+[z0s.app/fund](https://z0s.app/fund). Sign in with the wallet a
 bounty should go to and leave a contact so we can reply.
 
 Do not open a public issue for anything that could put funds at risk until it

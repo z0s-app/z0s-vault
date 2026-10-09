@@ -2,7 +2,7 @@
 
 A Solana program that holds SOL behind a checksummed Winternitz one-time
 signature instead of an elliptic-curve key. It is the on-chain half of the
-vault at [z0s.vercel.app/vault](https://z0s.vercel.app/vault).
+vault at [z0s.app/vault](https://z0s.app/vault).
 
 > **Experimental and unaudited.** Do not deposit more than you can afford to
 > lose. The z0s interface caps each vault at 0.1 SOL; **the program itself does
@@ -60,7 +60,7 @@ d_32, d_33  = C >> 8, C & 0xff
 Lowering any message digit raises `C`, which raises a checksum digit, and
 raising a digit would mean walking a chain backward: a preimage of the hash.
 The full argument is at
-[z0s.vercel.app/docs#checksum](https://z0s.vercel.app/docs#checksum).
+[z0s.app/docs#checksum](https://z0s.app/docs#checksum).
 
 ## Scheme
 
