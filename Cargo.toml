@@ -1,0 +1,19 @@
+[package]
+name = "z0s-vault"
+version = "0.1.0"
+edition = "2021"
+description = "z0s checksummed Winternitz lamports vault (experimental, unaudited)"
+license = "MIT"
+
+[lib]
+crate-type = ["lib", "cdylib"]
+
+[dependencies]
+arrayref = "0.3.9"
+pinocchio = "0.7.0"
+pinocchio-system = "0.2.1"
+
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1
